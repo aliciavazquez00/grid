@@ -7,9 +7,9 @@ html,body{
 }
 #contenedor{
   display: grid;
-  grid-template-rows: 100px 200px 100px;
-  grid-template-columns: 100px 200px 100px;
-  grid-auto-flow:column;
+  grid-template-rows: [pinto] 100px 200px [valdemoro] 100px;
+  grid-template-columns: repeat(5,100px);
+  grid-auto-flow: row;
 }
 
 .contingut{
@@ -24,5 +24,8 @@ html,body{
   border-radius: 8px;
 }
 .cinc{
-  grid-column: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start : 1;
+
 }
