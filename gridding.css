@@ -1,0 +1,24 @@
+html,body{
+  height: 100%;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor{
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+  grid-template-columns: 100px 200px 100px;
+}
+
+.contingut{
+  background-color:orange;
+  color:white;
+  margin:4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32pt;
+  border-radius: 8px;
+}
