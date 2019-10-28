@@ -9,6 +9,7 @@ html,body{
   display: grid;
   grid-template-rows: 100px 200px 100px;
   grid-template-columns: 100px 200px 100px;
+  grid-auto-flow:column;
 }
 
 .contingut{
@@ -21,4 +22,7 @@ html,body{
   text-align: center;
   font-size: 32pt;
   border-radius: 8px;
+}
+.cinc{
+  grid-column: span 2;
 }
