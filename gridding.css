@@ -16,10 +16,10 @@ html,body{
   background-color:orange;
   color:white;
   margin:4px;
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center;*/
   font-size: 32pt;
   border-radius: 8px;
 }
